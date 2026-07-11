@@ -1,9 +1,15 @@
-#painel-sobre{
-	margin-top: 20px;
+<style>
+body{
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center;     /* Centraliza na vertical */
+    height: 100vh;
+    margin: 0;
+    background: black;
 }
 
-.titulo-clientes{
-	background-color: #0275D8;
-	padding: 10px;
-	
+h1{
+    color: red;       /* Cor do texto */
+    font-size: 50px;
 }
+</style>
